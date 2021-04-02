@@ -1,5 +1,8 @@
 package com.springdemo.sample.project;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class BubbleSortAlgorithm implements SortAlgorithm {
 		
 	public BubbleSortAlgorithm() {
